@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "hieudemo"
+  description: "Test Backstage Deploy"
+  annotations:
+    github.com/project-slug: "backstage-hieu/test-backstage-2"
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: website
+  lifecycle: experimental
+  owner: "hieu:default/demo"

@@ -1,0 +1,8 @@
+site_name: "hieudemo"
+site_description: "Test Backstage Deploy"
+
+nav:
+  - Introduction: index.md
+
+plugins:
+  - techdocs-core
